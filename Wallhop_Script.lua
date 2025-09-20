@@ -23,6 +23,8 @@ frame.Size = UDim2.new(0, 250, 0, 120)
 frame.Position = UDim2.new(0.5, -125, 0.1, 0)
 frame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 frame.BorderSizePixel = 0
+frame.Active = true
+frame.Draggable = true
 frame.Parent = screenGui
 
 local title = Instance.new("TextLabel")
